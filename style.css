@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(images/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+p{
+    font-size: 10px;
+    color: white;
+    line-height: 16px;
+}
+.btn{
+    padding: 12px 28px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid red;
+    transition: ease 0.5s;
+    text-decoration: none;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    transition: ease 0.5s;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+.navbar ul li a:hover{
+    color: black;
+    transition: all 0.5s;
+}
+.row{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    height: 88%;
+}
+h1{
+    color: white;
+    font-size: 100px;
+}
+.desc{
+    font-size: 16px;
+}
+.col{
+    flex: 1;
+}
+.cards{
+    max-width: 500px;
+    margin: auto;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: 1px solid red;
+    position: relative;
+    transition: ease 0.5s;
+    margin: 10px 15px;
+}
+.card:hover{
+    transform: translateY(-10px);
+    transition: ease 0.5s;
+    border-color: white;
+}
+.card-head{
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 6px;
+    color: white;
+    padding: 6px;
+}
+.card-bottom{
+    position: absolute;
+    bottom: 26px;
+}
+.card.card-1{
+    background-image: url(images/pic-1.png);
+}
+.card.card-2{
+    background-image: url(images/pic-2.png);
+}
+.card.card-3{
+    background-image: url(images/pic-4.png);
+}
+.card.card-4{
+    background-image: url(images/pic-3.png);
+}
